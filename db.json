@@ -177,16 +177,7 @@
       "Sub-Types": [
         {
           "id": 1.1,
-          "Sub-Type": "Xa",
-          "Profile": "same as Type X, a little longer than average Type X",
-          "Cross-section": "lenticular",
-          "Average Blade Length, Lower Range (inches)": 31,
-          "Average Blade Length, Upper Range (inches)": 31,
-          "Fuller": "sames as Type X, fuller more narrow",
-          "Point": "can be acute, but is usually rounded",
-          "Grip": "single-hand, usually 3.75 inches",
-          "Primary purpose": "cutting",
-          "Period": "in use from 11th c to 14th c"
+          "Sub-Type": "Xa"
         }
       ]
     },
@@ -196,16 +187,7 @@
       "Sub-Types": [
         {
           "id": 2.1,
-          "Sub-Type": "XIa",
-          "Profile": "broader and shorter blade than typical Type XI",
-          "Cross-section": "lenticular",
-          "Average Blade Length, Lower Range (inches)": 30,
-          "Average Blade Length, Upper Range (inches)": 30,
-          "Fuller": "narrow fuller",
-          "Point": "often acute",
-          "Grip": "single-hand, usually 3.75 inches",
-          "Primary purpose": "cutting",
-          "Period": "early to late 12th c"
+          "Sub-Type": "XIa"
         }
       ]
     },
@@ -215,16 +197,7 @@
       "Sub-Types": [
         {
           "id": 3.1,
-          "Sub-Type": "XIIa",
-          "Profile": "broad, flat and evenly tapering",
-          "Cross-section": "lenticular",
-          "Average Blade Length, Lower Range (inches)": 35,
-          "Average Blade Length, Upper Range (inches)": 35,
-          "Fuller": "2/3's of the length of the blade",
-          "Point": "acute",
-          "Grip": "hand-and-half to two-hand length, 6 to 10 inches",
-          "Primary purpose": "cutting",
-          "Period": "Great Sword or War Sword, in use during much of the High Medieval period, 13th and 14th c"
+          "Sub-Type": "XIIa"
         }
       ]
     },
@@ -234,29 +207,11 @@
       "Sub-Types": [
         {
           "id": 4.1,
-          "Sub-Type": "XIIIa",
-          "Profile": "broad, flat and parallel edges",
-          "Cross-section": "lenticular",
-          "Average Blade Length, Lower Range (inches)": 32,
-          "Average Blade Length, Upper Range (inches)": 40,
-          "Fuller": "1/2 of the length of the blade, can be multiple",
-          "Point": "rounded",
-          "Grip": "hand-and-half to two hand length, 6 to 10",
-          "Primary purpose": "cutting",
-          "Period": "Great Sword or War Sword, in use from middle of the 13th c to the latter half of the 14th"
+          "Sub-Type": "XIIIa"
         },
         {
           "id": 4.2,
-          "Sub-Type": "XIIIb",
-          "Profile": "broad, flat and parallel edges",
-          "Cross-section": "lenticular",
-          "Average Blade Length, Lower Range (inches)": 35,
-          "Average Blade Length, Upper Range (inches)": 35,
-          "Fuller": "1/2 of the length of the blade, can be multiple",
-          "Point": "rounded",
-          "Grip": "single-hand, usually 4 inches",
-          "Primary purpose": "cutting",
-          "Period": "mid 13th c to latter half of the 14th c"
+          "Sub-Type": "XIIIb"
         }
       ]
     },
@@ -271,16 +226,7 @@
       "Sub-Types": [
         {
           "id": 6.1,
-          "Sub-Type": "XVa",
-          "Profile": "strongly tapered, more narrow and slender than Type XV",
-          "Cross-section": "flattened diamond, some hollow-ground",
-          "Average Blade Length, Lower Range (inches)": 33,
-          "Average Blade Length, Upper Range (inches)": 33,
-          "Fuller": "none",
-          "Point": "acute",
-          "Grip": "hand and a half, from 7 to 9 inches",
-          "Primary purpose": "thrusting",
-          "Period": "end of the 13th c, more widely used in the 14th and 15th c, ending in the early 16th c"
+          "Sub-Type": "XVa"
         }
       ]
     },
@@ -290,16 +236,7 @@
       "Sub-Types": [
         {
           "id": 7.1,
-          "Sub-Type": "XVIa",
-          "Profile": "long and slowly tapering",
-          "Cross-section": "flat hexagonal",
-          "Average Blade Length, Lower Range (inches)": 32,
-          "Average Blade Length, Upper Range (inches)": 32,
-          "Fuller": "1/3+ of the blade",
-          "Point": "acute",
-          "Grip": "hand and half, 6 to 9 inches",
-          "Primary purpose": "thrusting while retaining good cutting ability",
-          "Period": "early 14th c"
+          "Sub-Type": "XVIa"
         }
       ]
     },
@@ -314,68 +251,23 @@
       "Sub-Types": [
         {
           "id": 9.1,
-          "Sub-Type": "XVIIIa",
-          "Profile": "somehwat slender and tapers gracefully to a sharp point",
-          "Cross-section": "flattened diamond, often with pronounced mid-rib, some hollow-ground",
-          "Average Blade Length, Lower Range (inches)": 36,
-          "Average Blade Length, Upper Range (inches)": 42,
-          "Fuller": "some have a narrow, short fuller",
-          "Point": "acute",
-          "Grip": "single-hand to hand and a half, 5+ inches",
-          "Primary purpose": "cutting and thrusting",
-          "Period": "between c. mid 14th c. to early 15th c"
+          "Sub-Type": "XVIIIa"
         },
         {
           "id": 9.2,
-          "Sub-Type": "XVIIIb",
-          "Profile": "long, slender and acutely pointed",
-          "Cross-section": "flattened diamond, often with pronounced mid-rib, some holow-ground",
-          "Average Blade Length, Lower Range (inches)": 36,
-          "Average Blade Length, Upper Range (inches)": 42,
-          "Fuller": "none",
-          "Point": "acute, usually reinforced",
-          "Grip": "hand and a half, 10-11 inches, usually waisted",
-          "Primary purpose": "cutting and thrusting",
-          "Period": "between c. mid 15th c. to early 16th c"
+          "Sub-Type": "XVIIIb"
         },
         {
           "id": 9.3,
-          "Sub-Type": "XVIIIc",
-          "Profile": "broad and acutely pointed",
-          "Cross-section": "flattened diamond, often with pronounced mid-rib, some hollow-ground",
-          "Average Blade Length, Lower Range (inches)": 34,
-          "Average Blade Length, Upper Range (inches)": 34,
-          "Fuller": "some have a narrow, short fuller",
-          "Point": "acute",
-          "Grip": "hand and a half, 6+ inches",
-          "Primary purpose": "cutting and thrusting",
-          "Period": "between c. mid 15th c. to early 16th c"
+          "Sub-Type": "XVIIIc"
         },
         {
           "id": 9.4,
-          "Sub-Type": "XVIIId",
-          "Profile": "long, slender and acutely pointed",
-          "Cross-section": "flattened diamond, often with pronounced mid-rib, some hollow-ground",
-          "Average Blade Length, Lower Range (inches)": 36,
-          "Average Blade Length, Upper Range (inches)": 42,
-          "Fuller": "none",
-          "Point": "acute, usually reinforced",
-          "Grip": "hand and a half, 10-11 inches, usually waisted",
-          "Primary purpose": "cutting and thrusting",
-          "Period": "between c. mid 15th c. to early 16th c"
+          "Sub-Type": "XVIIId"
         },
         {
           "id": 9.5,
-          "Sub-Type": "XVIIIe",
-          "Profile": "long and acutely pointed",
-          "Cross-section": "flattened diamond, often with pronounced mid-rib, some hollow-ground",
-          "Average Blade Length, Lower Range (inches)": 36,
-          "Average Blade Length, Upper Range (inches)": 42,
-          "Fuller": "narrow, short fuller in ricasso",
-          "Point": "acute, usually reinforced",
-          "Grip": "hand and a half to two-handed",
-          "Primary purpose": "cutting and thrusting",
-          "Period": "between c. mid 15th c. to early 16th c"
+          "Sub-Type": "XVIIIe"
         }
       ]
     },
@@ -390,16 +282,7 @@
       "Sub-Types": [
         {
           "id": 11.1,
-          "Sub-Type": "XXa",
-          "Profile": "tapers more acutely than Type XX and a more acute point",
-          "Cross-section": "flat hexagonal",
-          "Average Blade Length, Lower Range (inches)": 30,
-          "Average Blade Length, Upper Range (inches)": 38,
-          "Fuller": "central fuller 1/2 of the blade, with two parallel fullers in the upper 1/4, sometimes with a ricasso",
-          "Point": "acute",
-          "Grip": "hand and a half",
-          "Primary purpose": "cutting and thrusting",
-          "Period": "14th and 15th c."
+          "Sub-Type": "XXa"
         }
       ]
     },
