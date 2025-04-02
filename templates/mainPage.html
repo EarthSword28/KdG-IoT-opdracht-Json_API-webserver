@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Main Page Template</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+  </head>
+  <body>
+    <h1 class="pageTitle">Kalender 2025</h1>
+    <img
+      class="logo"
+      src="/static/images/logoKdG.png"
+      alt="Logo"
+    />
+    <div class="select">
+      <p>
+        <ol>
+        {% for i in type_list %}
+          <li><a href="/Page/{{i}}">Type {{i}}</a></li>
+        {% endfor %}
+        </ol>
+      </p>
+    </div>
+  </body>
+</html>
