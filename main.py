@@ -3,6 +3,7 @@
 
   # Canvas cursus: https://canvas.kdg.be/courses/49875
   # CSS: https://www.w3schools.com/css/default.asp
+  # HTML: https://www.w3schools.com/html/
   # Python Requests Module reference page: https://www.w3schools.com/python/module_requests.asp (02/04/2025)
   # Getting Started with Python HTTP Requests for REST APIs: https://www.datacamp.com/tutorial/making-http-requests-in-python (02/04/2025)
   # bepaalde delen van de text formatten: https://stackoverflow.com/questions/4622808/html-changing-colors-of-specific-words-in-a-string-of-text
