@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Type {{type_name}}: Oakeshott's Typology of the Medieval Sword</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+  </head>
+  <body>
+    <h1 class="pageTitle">Type {{type_name}}</h1>
+    <img
+      class="logo"
+      src="/static/images/logoKdG.png"
+      alt="Logo"
+    />
+    <div class="mainGallery">
+      <img
+      src="/static/images/zwaarden/{{list_values[1]}}.jpg"
+      alt="mainImage"
+      />
+      <p>
+        <ul>
+          {% for i in list_count %}
+          <li><span class="key">{{list_keys[i]}}:</span> {{list_values[i]}}</li>
+          {% endfor %}
+        </ul>
+      </p>
+    </div>
+    {% if sub_count > 0 %}
+    <div class="subGallery">
+      {% for item in list_sub_types %}
+        <img 
+        src="/static/images/zwaarden/{{item}}.jpg" 
+        alt="subImage{{item}}"
+        />
+        <p>
+          Sub-Type {{item}}
+        </p>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <footer class="pathHome">
+      {% if type_id == 1 %}
+        <ul class="nav">
+          <li>Terug</li>
+          <li><a href="/">Startpagina</a></li>
+          <li><a href="/page/{{ type_id + 1 }}">Volgende</a></li>
+        </ul>
+      {% elif type_id == max_types %}
+        <ul class="nav">
+          <li><a href="/page/{{ type_id - 1 }}">Terug</a></li>
+          <li><a href="/">Startpagina</a></li>
+          <li>Volgende</li>
+        </ul>
+      {% else %}
+        <ul class="nav">
+          <li><a href="/page/{{ type_id - 1 }}">Terug</a></li>
+          <li><a href="/">Startpagina</a></li>
+          <li><a href="/page/{{ type_id + 1 }}">Volgende</a></li>
+        </ul>
+      {% endif %}
+    </footer>
+  </body>
+</html>

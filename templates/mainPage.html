@@ -1,20 +1,23 @@
 <html>
   <head>
-    <title>Main Page Template</title>
+    <title>Oakeshott's Typology of the Medieval Sword A Summary</title>
     <link rel="stylesheet" href="/static/css/style.css">
   </head>
   <body>
-    <h1 class="pageTitle">Kalender 2025</h1>
+    <h1 class="pageTitle">Oakeshott's Typology of the Medieval Sword A Summary</h1>
     <img
       class="logo"
       src="/static/images/logoKdG.png"
       alt="Logo"
     />
+    <div class="mainGallery">
+      <img src="/static/images/zwaarden/Oakeshott's Typology of the Medieval Sword.jpg" alt="Swords">
+    </div>
     <div class="select">
       <p>
         <ol>
-        {% for i in type_list %}
-          <li><a href="/Page/{{i}}">Type {{i}}</a></li>
+        {% for i in id_list %}
+          <li><a href="/page/{{i}}">Type {{type_list[i-1]}}</a></li>
         {% endfor %}
         </ol>
       </p>
