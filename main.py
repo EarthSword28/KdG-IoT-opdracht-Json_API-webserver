@@ -33,15 +33,15 @@ def serverSubPage(id):
   payload = {"id": id}
   response = requests.get(TYPES_URL, params=payload).json()
   response_list = response[0]
-  print(response_list)
+  # print(response_list)
   key_list = ["id", "Type", "Profile", "Cross-section", "Average Blade Length in inches (Lower Range)", "Average Blade Length in inches (Upper Range)", "Fuller", "Point", "Grip", "Primary purpose", "Period"]
   value_list = []
   count_list = []
   for key in response_list:
     value_list.append(response_list[key])
     count_list.append(len(count_list))
-  print(value_list)
-  print(count_list)
+  # print(value_list)
+  # print(count_list)
   sub_response = requests.get(SUB_TYPES_URL, params=payload).json()
   count_response = sub_response[0]["count"]
   sub_type_list = []
@@ -52,7 +52,7 @@ def serverSubPage(id):
   id_length = requests.get(TYPES_URL).json()
   type_count = len(id_length)
   name_type = response[0]["Type"]
-  print(sub_type_list)
+  # print(sub_type_list)
   return render_template("subPage.html", list_keys=key_list, list_values=value_list, list_count=count_list, sub_count=count_response, list_sub_types=sub_type_list, max_types=type_count, type_id=id, type_name=name_type)
 
 app.run(host='0.0.0.0', port=5000)      # http://localhost:5000
