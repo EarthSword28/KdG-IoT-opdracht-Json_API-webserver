@@ -33,7 +33,7 @@ def serverSubPage(id):
   response = requests.get(TYPES_URL, params=payload).json()
   response_list = response[0]
   print(response_list)
-  key_list = ["id", "Type", "Profile", "Cross-section", "Average-Blade-Length-Lower-Range-in-inches", "Average-Blade-Length-Upper-Range-in-inches", "Fuller", "Point", "Grip", "Primary-purpose", "Period"]
+  key_list = ["id", "Type", "Profile", "Cross-section", "Average Blade Length in inches (Lower Range)", "Average Blade Length in inches (Upper Range)", "Fuller", "Point", "Grip", "Primary purpose", "Period"]
   value_list = []
   count_list = []
   for key in response_list:
